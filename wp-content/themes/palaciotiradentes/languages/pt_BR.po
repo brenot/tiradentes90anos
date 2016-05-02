@@ -1,0 +1,1956 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Essence\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-20 13:32+0700\n"
+"PO-Revision-Date: Mon May 02 2016 16:48:03 GMT-0300 (BRT)\n"
+"Last-Translator: Redação Alerj <nirlandy.pinheiro@casadigital.com>\n"
+"Language-Team: \n"
+"Language: Portuguese (Brazil)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Loco-Target-Locale: pt_BR"
+
+#: 404.php:12 engine/theme-options.php:1204 functions.php:376
+msgid "Oops, page not found !"
+msgstr ""
+
+#: 404.php:13 engine/theme-options.php:1219
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: archive.php:60 index.php:69 search.php:60
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:61 index.php:70 search.php:61
+msgid "Next page"
+msgstr ""
+
+#: archive.php:62 index.php:71 search.php:62
+#: template-parts/content-search.php:84 template-parts/content-search.php:163
+#: template-parts/content-single.php:37 template-parts/content.php:76
+#: template-parts/content.php:149
+msgid "Page"
+msgstr ""
+
+#: comments.php:23
+msgid "Name*"
+msgstr ""
+
+#: comments.php:24
+msgid "Email*"
+msgstr ""
+
+#: comments.php:25
+msgid "Website"
+msgstr ""
+
+#: comments.php:34
+msgid "Cancel"
+msgstr ""
+
+#: comments.php:35
+msgid "Leave Comment"
+msgstr ""
+
+#: comments.php:52
+#, php-format
+msgctxt "comments title"
+msgid "01 Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:61 comments.php:88
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:64 comments.php:91
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:65 comments.php:92
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:79
+msgid "<i class=\"fa fa-mail-reply\"></i> reply"
+msgstr ""
+
+#: comments.php:104
+msgid "Comments are closed."
+msgstr ""
+
+#: engine/advance-functions.php:291 engine/classes/breadcrumbs.php:260
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: engine/advance-functions.php:291 engine/classes/breadcrumbs.php:261
+msgid "Home"
+msgstr ""
+
+#: engine/advance-functions.php:291 engine/classes/breadcrumbs.php:262
+msgid "404 Not Found"
+msgstr ""
+
+#: engine/advance-functions.php:291 engine/classes/breadcrumbs.php:263
+msgid "Archives"
+msgstr ""
+
+#: engine/advance-functions.php:292 engine/classes/breadcrumbs.php:265
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: engine/advance-functions.php:293 engine/classes/breadcrumbs.php:267
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: engine/advance-functions.php:294 engine/classes/breadcrumbs.php:269
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: engine/advance-functions.php:295 engine/classes/breadcrumbs.php:271
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: engine/advance-functions.php:554 engine/theme-options.php:832
+msgid "Search place holder"
+msgstr ""
+
+#: engine/advance-functions.php:667
+msgid "Coming Soon Mode Expired"
+msgstr ""
+
+#: engine/advance-functions.php:667
+msgid "Coming soon mode is actived but expired"
+msgstr ""
+
+#: engine/advance-functions.php:677
+msgid "Coming Soon Mode"
+msgstr ""
+
+#: engine/advance-functions.php:677
+msgid "Coming soon mode is actived"
+msgstr ""
+
+#: engine/advance-functions.php:907
+msgid "No Revolution Slider"
+msgstr ""
+
+#: engine/advance-functions.php:983 engine/advance-functions.php:1031
+msgid "Security check error!"
+msgstr ""
+
+#: engine/advance-functions.php:989 engine/advance-functions.php:1037
+msgid "User name can not be empty!"
+msgstr ""
+
+#: engine/advance-functions.php:1002
+msgid "Wrong username or password."
+msgstr ""
+
+#: engine/advance-functions.php:1007
+msgid "Welcome"
+msgstr ""
+
+#: engine/advance-functions.php:1008
+#, php-format
+msgid "Hello %s!"
+msgstr ""
+
+#: engine/advance-functions.php:1043
+msgid "The Email Address is in an invalid format!"
+msgstr ""
+
+#: engine/advance-functions.php:1049
+msgid "Please enter a password!"
+msgstr ""
+
+#: engine/advance-functions.php:1055
+msgid "Passwords did not match. Please try again!"
+msgstr ""
+
+#: engine/advance-functions.php:1061
+msgid "You must agree to our terms of use!"
+msgstr ""
+
+#: engine/advance-functions.php:1072
+msgid "Thank you! Registered successfully, now you can login."
+msgstr ""
+
+#: engine/advance-functions.php:1075
+msgid "Registration failed. Please try again latter!"
+msgstr ""
+
+#: engine/advance-functions.php:1079
+msgid "User already exists."
+msgstr ""
+
+#: engine/advance-functions.php:1095 engine/template-tags.php:485
+#: engine/theme-options.php:638
+msgid "Load more"
+msgstr ""
+
+#: engine/advance-functions.php:1096 engine/theme-options.php:647
+msgid "No more post"
+msgstr ""
+
+#: engine/classes/breadcrumbs.php:259
+msgid "Browse:"
+msgstr ""
+
+#: engine/classes/breadcrumbs.php:775
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: engine/classes/breadcrumbs.php:794
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: engine/classes/breadcrumbs.php:813
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: engine/classes/breadcrumbs.php:831 engine/classes/breadcrumbs.php:863
+#: engine/classes/breadcrumbs.php:893 engine/classes/breadcrumbs.php:923
+#: engine/classes/breadcrumbs.php:1299
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: engine/classes/breadcrumbs.php:832 engine/classes/breadcrumbs.php:894
+#: engine/classes/breadcrumbs.php:1304
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: engine/classes/breadcrumbs.php:833 engine/classes/breadcrumbs.php:1309
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: engine/classes/breadcrumbs.php:864
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:324
+msgid "Install Required Plugins"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:325
+msgid "Install Plugins"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:326
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:327
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:329
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:334
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:339
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:344
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:349
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:359
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:364
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:369
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:374
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:379
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:384
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:388
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:389
+msgid "Return to the dashboard"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:390
+#: engine/classes/class-tgm-plugin-activation.php:3014
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:391
+#: engine/classes/class-tgm-plugin-activation.php:2817
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:393
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:396
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:515
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:516
+msgid "Update Required"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:629
+msgid "The tgmpa_admin_menu_use_add_theme_page filter is deprecated."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:818
+#: engine/classes/class-tgm-plugin-activation.php:3423
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:925
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:925
+#: engine/classes/class-tgm-plugin-activation.php:928
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:928
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:1106
+#: engine/classes/class-tgm-plugin-activation.php:2813
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:1866
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2152
+msgid "Required"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2155
+msgid "Recommended"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2171
+msgid "WordPress Repository"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2174
+msgid "External Source"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2177
+msgid "Pre-Packaged"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2194
+msgid "Not Installed"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2198
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2200
+msgid "Active"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2206
+msgid "Required Update not Available"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2209
+msgid "Requires Update"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2212
+msgid "Update recommended"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2220
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2265
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2268
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2271
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2274
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2356
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2364
+msgid "Installed version:"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2372
+msgid "Minimum required version:"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2384
+msgid "Available version:"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2407
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2421
+msgid "Plugin"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2422
+msgid "Source"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2423
+msgid "Type"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2427
+msgid "Version"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2428
+msgid "Status"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2476
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2480
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2485
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2555
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2588
+msgid "Install"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2594
+#: engine/template-tags.php:26 engine/template-tags.php:69
+msgid "Update"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2597
+msgid "Activate"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2628
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2630
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2666
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2668
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2773
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:2799
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3013
+msgid "Plugin activation failed."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3347
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3349
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3350
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3354
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3355
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3355
+#: engine/classes/class-tgm-plugin-activation.php:3361
+msgid "Show Details"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3355
+#: engine/classes/class-tgm-plugin-activation.php:3361
+msgid "Hide Details"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3356
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3357
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3360
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3361
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3362
+msgid "All installations have been completed."
+msgstr ""
+
+#: engine/classes/class-tgm-plugin-activation.php:3363
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: engine/classes/ts_bootstrap_navwalker.php:225
+msgid "Add a menu"
+msgstr ""
+
+#: engine/global-localize.php:21
+msgid "Days"
+msgstr ""
+
+#: engine/global-localize.php:25
+msgid "Hours"
+msgstr ""
+
+#: engine/global-localize.php:29
+msgid "Minutes"
+msgstr ""
+
+#: engine/global-localize.php:33
+msgid "Seconds"
+msgstr ""
+
+#: engine/global-localize.php:37
+msgid "D"
+msgstr ""
+
+#: engine/global-localize.php:41
+msgid "H"
+msgstr ""
+
+#: engine/global-localize.php:45
+msgid "M"
+msgstr ""
+
+#: engine/global-localize.php:49
+msgid "S"
+msgstr ""
+
+#: engine/template-tags.php:31 engine/template-tags.php:75
+#, php-format
+msgctxt "post date"
+msgid "%s"
+msgstr ""
+
+#: engine/template-tags.php:36 engine/template-tags.php:80
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "Por %s"
+
+#: engine/template-tags.php:94
+msgid "Leave a comment"
+msgstr ""
+
+#: engine/template-tags.php:94
+msgid "1 Comment"
+msgstr ""
+
+#: engine/template-tags.php:94
+#, c-format
+msgid "% Comments"
+msgstr ""
+
+#: engine/template-tags.php:99
+msgid ", "
+msgstr ""
+
+#: engine/template-tags.php:101 engine/template-tags.php:131
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: engine/template-tags.php:123
+msgid "Sticky"
+msgstr ""
+
+#: engine/template-tags.php:129
+msgid ","
+msgstr ""
+
+#: engine/template-tags.php:131
+msgid "Tags:"
+msgstr ""
+
+#: engine/template-tags.php:434
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: engine/template-tags.php:497
+msgid "<i class=\"fa fa-angle-left\"></i>"
+msgstr ""
+
+#: engine/template-tags.php:498
+msgid "<i class=\"fa fa-angle-right\"></i>"
+msgstr ""
+
+#: engine/template-tags.php:509 engine/theme-options.php:656
+msgid "Read more"
+msgstr ""
+
+#: engine/theme-options.php:91
+msgid "Section via hook"
+msgstr ""
+
+#: engine/theme-options.php:92
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the "
+"sections array. Can be used by child themes to add/remove sections from the "
+"options.</p>"
+msgstr ""
+
+#: engine/theme-options.php:172
+#, php-format
+msgid "Customize &#8220;%s&#8221;"
+msgstr ""
+
+#: engine/theme-options.php:180 engine/theme-options.php:184
+msgid "Current theme preview"
+msgstr ""
+
+#: engine/theme-options.php:193
+#, php-format
+msgid "By %s"
+msgstr "Por"
+
+#: engine/theme-options.php:194
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: engine/theme-options.php:195 engine/theme-options.php:743
+msgid "Tags"
+msgstr ""
+
+#: engine/theme-options.php:201
+#, php-format
+msgid "This <a href=\"%1$s\">child theme</a> requires its parent theme, %2$s."
+msgstr ""
+
+#: engine/theme-options.php:201
+msgid "http://codex.wordpress.org/Child_Themes"
+msgstr ""
+
+#: engine/theme-options.php:221
+msgid "General Settings"
+msgstr ""
+
+#: engine/theme-options.php:227
+msgid "Welcome to ESSENCE Theme Option Panel"
+msgstr ""
+
+#: engine/theme-options.php:229
+msgid "From here you can config ESSENCE theme in the way you need."
+msgstr ""
+
+#: engine/theme-options.php:235
+msgid "Logo"
+msgstr ""
+
+#: engine/theme-options.php:237
+msgid "Upload your logo image"
+msgstr ""
+
+#: engine/theme-options.php:238
+msgid "Upload your custom logo image"
+msgstr ""
+
+#: engine/theme-options.php:244
+msgid "Favicon"
+msgstr ""
+
+#: engine/theme-options.php:245
+msgid "Upload a 16px x 16px .png or .gif or .ico image that will be your favicon."
+msgstr ""
+
+#: engine/theme-options.php:246
+msgid "Upload your custom favicon image"
+msgstr ""
+
+#: engine/theme-options.php:253
+msgid "Base color"
+msgstr ""
+
+#: engine/theme-options.php:254
+msgid "Base color for all pages on the frontend"
+msgstr ""
+
+#: engine/theme-options.php:263
+msgid "Body Background"
+msgstr ""
+
+#: engine/theme-options.php:264
+msgid "Body background with image pattern, color, etc."
+msgstr ""
+
+#: engine/theme-options.php:280
+msgid "Enable Smooth Scroll"
+msgstr ""
+
+#: engine/theme-options.php:282 engine/theme-options.php:290
+#: engine/theme-options.php:299 engine/theme-options.php:308
+#: engine/theme-options.php:456 engine/theme-options.php:498
+#: engine/theme-options.php:877 engine/theme-options.php:914
+#: engine/theme-options.php:922 engine/theme-options.php:964
+msgid "Enable"
+msgstr ""
+
+#: engine/theme-options.php:283 engine/theme-options.php:291
+#: engine/theme-options.php:300 engine/theme-options.php:309
+#: engine/theme-options.php:457 engine/theme-options.php:499
+msgid "Disable"
+msgstr ""
+
+#: engine/theme-options.php:288
+msgid "Theme load font Awesome"
+msgstr ""
+
+#: engine/theme-options.php:292
+msgid ""
+"You can disable load font Awesome CSS from theme if Essence Core plugin is "
+"activated."
+msgstr ""
+
+#: engine/theme-options.php:297
+msgid "Theme load font Linea"
+msgstr ""
+
+#: engine/theme-options.php:301
+msgid ""
+"You can disable load font Linea CSS from theme if Essence Core plugin is "
+"activated."
+msgstr ""
+
+#: engine/theme-options.php:306
+msgid "Theme load font Elegant"
+msgstr ""
+
+#: engine/theme-options.php:310
+msgid ""
+"You can disable load font Elegant CSS from theme if Essence Core plugin is "
+"activated."
+msgstr ""
+
+#: engine/theme-options.php:316
+msgid "Custom CSS"
+msgstr ""
+
+#: engine/theme-options.php:317
+msgid "Paste your custom CSS code here."
+msgstr ""
+
+#: engine/theme-options.php:326
+msgid "Custom JS "
+msgstr ""
+
+#: engine/theme-options.php:327
+msgid "Paste your custom JS code here."
+msgstr ""
+
+#: engine/theme-options.php:338
+msgid "Typography Options"
+msgstr ""
+
+#: engine/theme-options.php:343
+msgid "Body Font Setting"
+msgstr ""
+
+#: engine/theme-options.php:344
+msgid "Specify the body font properties."
+msgstr ""
+
+#: engine/theme-options.php:352
+msgid "Menu Item Font Setting"
+msgstr ""
+
+#: engine/theme-options.php:353
+msgid "Specify the menu font properties."
+msgstr ""
+
+#: engine/theme-options.php:362
+msgid "Heading 1(H1) Font Setting"
+msgstr ""
+
+#: engine/theme-options.php:363
+msgid "Specify the H1 tag font properties."
+msgstr ""
+
+#: engine/theme-options.php:374
+msgid "Heading 2(H2) Font Setting"
+msgstr ""
+
+#: engine/theme-options.php:375
+msgid "Specify the H2 tag font properties."
+msgstr ""
+
+#: engine/theme-options.php:386
+msgid "Heading 3(H3) Font Setting"
+msgstr ""
+
+#: engine/theme-options.php:387
+msgid "Specify the H3 tag font properties."
+msgstr ""
+
+#: engine/theme-options.php:398
+msgid "Heading 4(H4) Font Setting"
+msgstr ""
+
+#: engine/theme-options.php:399
+msgid "Specify the H4 tag font properties."
+msgstr ""
+
+#: engine/theme-options.php:410
+msgid "Heading 5(H5) Font Setting"
+msgstr ""
+
+#: engine/theme-options.php:411
+msgid "Specify the H5 tag font properties."
+msgstr ""
+
+#: engine/theme-options.php:422
+msgid "Heading 6(H6) Font Setting"
+msgstr ""
+
+#: engine/theme-options.php:423
+msgid "Specify the H6 tag font properties."
+msgstr ""
+
+#: engine/theme-options.php:434
+msgid "Widget Title Font Setting"
+msgstr ""
+
+#: engine/theme-options.php:435
+msgid "Specify widget title font properties."
+msgstr ""
+
+#: engine/theme-options.php:447 engine/theme-options.php:448
+msgid "Header Settings"
+msgstr ""
+
+#: engine/theme-options.php:454
+msgid "Enable Menu Sticky"
+msgstr ""
+
+#: engine/theme-options.php:463
+msgid "Header Type"
+msgstr ""
+
+#: engine/theme-options.php:465
+msgid "Header V1"
+msgstr ""
+
+#: engine/theme-options.php:466
+msgid "Header V2"
+msgstr ""
+
+#: engine/theme-options.php:467
+msgid "Header V3"
+msgstr ""
+
+#: engine/theme-options.php:470
+msgid "Default header layout type for all pages"
+msgstr ""
+
+#: engine/theme-options.php:476
+msgid "Header Slider"
+msgstr ""
+
+#: engine/theme-options.php:479
+msgid "Default header slider for all pages"
+msgstr ""
+
+#: engine/theme-options.php:480
+msgid "Select a slider or leave me empty to use image option"
+msgstr ""
+
+#: engine/theme-options.php:486
+msgid "Header Image"
+msgstr ""
+
+#: engine/theme-options.php:488
+msgid "Header image in case of no slider is chosen"
+msgstr ""
+
+#: engine/theme-options.php:489
+msgid "Upload header image"
+msgstr ""
+
+#: engine/theme-options.php:496
+msgid "Enable Header Scroll Down"
+msgstr ""
+
+#: engine/theme-options.php:505
+msgid "Scroll Down Style"
+msgstr ""
+
+#: engine/theme-options.php:506
+msgid "Select header scroll down style."
+msgstr ""
+
+#: engine/theme-options.php:520
+msgid "Custom Scroll Down"
+msgstr ""
+
+#: engine/theme-options.php:522
+msgid "Header custom scroll down"
+msgstr ""
+
+#: engine/theme-options.php:523
+msgid "Upload custom scroll down image"
+msgstr ""
+
+#: engine/theme-options.php:532 engine/theme-options.php:533
+msgid "Footer Settings"
+msgstr ""
+
+#: engine/theme-options.php:540
+msgid "Footer Layout"
+msgstr ""
+
+#: engine/theme-options.php:541
+msgid "Select footer layout style."
+msgstr ""
+
+#: engine/theme-options.php:554 engine/theme-options.php:565
+msgid "Footer Logo"
+msgstr ""
+
+#: engine/theme-options.php:556
+msgid "Dark footer logo"
+msgstr ""
+
+#: engine/theme-options.php:557
+msgid "Upload dark footer logo image"
+msgstr ""
+
+#: engine/theme-options.php:567
+msgid "Light footer logo"
+msgstr ""
+
+#: engine/theme-options.php:568
+msgid "Upload light footer logo image"
+msgstr ""
+
+#: engine/theme-options.php:575
+msgid "Footer copyright Text"
+msgstr ""
+
+#: engine/theme-options.php:576
+msgid "Copyright text"
+msgstr ""
+
+#: engine/theme-options.php:577
+msgid "&copy; Essence 2016. A project design by <a href=\"#\">WhiteStag</a>"
+msgstr ""
+
+#: engine/theme-options.php:582
+msgid "Show social links"
+msgstr ""
+
+#: engine/theme-options.php:584 engine/theme-options.php:693
+#: engine/theme-options.php:705 engine/theme-options.php:717
+#: engine/theme-options.php:729 engine/theme-options.php:753
+#: engine/theme-options.php:869
+msgid "Show"
+msgstr ""
+
+#: engine/theme-options.php:585 engine/theme-options.php:694
+#: engine/theme-options.php:706 engine/theme-options.php:718
+#: engine/theme-options.php:730 engine/theme-options.php:754
+#: engine/theme-options.php:870
+msgid "Don't show"
+msgstr ""
+
+#: engine/theme-options.php:594 engine/theme-options.php:595
+msgid "Blog Settings"
+msgstr ""
+
+#: engine/theme-options.php:602
+msgid "Sidebar position"
+msgstr ""
+
+#: engine/theme-options.php:603
+msgid "Select sidebar position."
+msgstr ""
+
+#: engine/theme-options.php:604 engine/theme-options.php:856
+msgid "Select sidebar on left or right"
+msgstr ""
+
+#: engine/theme-options.php:616
+msgid "Blog layout style"
+msgstr ""
+
+#: engine/theme-options.php:618
+msgid "Default"
+msgstr ""
+
+#: engine/theme-options.php:619
+msgid "List"
+msgstr ""
+
+#: engine/theme-options.php:620
+msgid "Grid"
+msgstr ""
+
+#: engine/theme-options.php:627
+msgid "Number of posts per load"
+msgstr ""
+
+#: engine/theme-options.php:628
+msgid "Number of posts will load when click on load more button"
+msgstr ""
+
+#: engine/theme-options.php:636
+msgid "Load more text"
+msgstr ""
+
+#: engine/theme-options.php:637
+msgid "Load more button text"
+msgstr ""
+
+#: engine/theme-options.php:645
+msgid "No more post text"
+msgstr ""
+
+#: engine/theme-options.php:646
+msgid "Text show when no more post to load"
+msgstr ""
+
+#: engine/theme-options.php:654
+msgid "Continue reading"
+msgstr ""
+
+#: engine/theme-options.php:655
+msgid "Continue reading text"
+msgstr ""
+
+#: engine/theme-options.php:661
+msgid "Bog loop content"
+msgstr ""
+
+#: engine/theme-options.php:662
+msgid "Show the blog content or the excerpt on loop"
+msgstr ""
+
+#: engine/theme-options.php:664
+msgid "The content"
+msgstr ""
+
+#: engine/theme-options.php:665
+msgid "The excerpt"
+msgstr ""
+
+#: engine/theme-options.php:667
+msgid "This option only work with default blog layout style"
+msgstr ""
+
+#: engine/theme-options.php:672
+msgid "The excerpt max chars length"
+msgstr ""
+
+#: engine/theme-options.php:676
+msgid "The excerpt max chars length for default blog layout style"
+msgstr ""
+
+#: engine/theme-options.php:681
+msgid "The excerpt max chars length for standard"
+msgstr ""
+
+#: engine/theme-options.php:685
+msgid "The excerpt max chars length for standard blog layout style"
+msgstr ""
+
+#: engine/theme-options.php:690 engine/theme-options.php:702
+#: engine/theme-options.php:714
+msgid "Show placehold image"
+msgstr ""
+
+#: engine/theme-options.php:691
+msgid "Show placehold image if blog post standard has no feature image"
+msgstr ""
+
+#: engine/theme-options.php:703
+msgid "Show placehold image if blog post grid has no feature image"
+msgstr ""
+
+#: engine/theme-options.php:715
+msgid "Show placehold image if blog post masonry has no feature image"
+msgstr ""
+
+#: engine/theme-options.php:726
+msgid "Show read more"
+msgstr ""
+
+#: engine/theme-options.php:727
+msgid "Show read more button on blog archive"
+msgstr ""
+
+#: engine/theme-options.php:737
+msgid "Blog metas"
+msgstr ""
+
+#: engine/theme-options.php:739
+msgid "Author"
+msgstr ""
+
+#: engine/theme-options.php:740
+msgid "Date time"
+msgstr ""
+
+#: engine/theme-options.php:741
+msgid "Category"
+msgstr ""
+
+#: engine/theme-options.php:742
+msgid "Comment"
+msgstr ""
+
+#: engine/theme-options.php:751
+msgid "Header title section on single post"
+msgstr ""
+
+#: engine/theme-options.php:760
+msgid "Single post title type"
+msgstr ""
+
+#: engine/theme-options.php:762
+msgid "Use single title"
+msgstr ""
+
+#: engine/theme-options.php:763
+msgid "Use blog title"
+msgstr ""
+
+#: engine/theme-options.php:771
+msgid "Enable bio author in single post"
+msgstr ""
+
+#: engine/theme-options.php:772
+msgid "Enable bio author on/off"
+msgstr ""
+
+#: engine/theme-options.php:780
+msgid "Enable single post share links"
+msgstr ""
+
+#: engine/theme-options.php:789
+msgid "Choose socials to share single post"
+msgstr ""
+
+#: engine/theme-options.php:806 engine/theme-options.php:807
+msgid "Search Settings"
+msgstr ""
+
+#: engine/theme-options.php:814
+msgid "Display search result for"
+msgstr ""
+
+#: engine/theme-options.php:823
+msgid "Don't show excerpt on"
+msgstr ""
+
+#: engine/theme-options.php:824
+msgid "Select post types you don't want to show the excerpt on search results page"
+msgstr ""
+
+#: engine/theme-options.php:833
+msgid "Type & hit enter..."
+msgstr ""
+
+#: engine/theme-options.php:846
+msgid "WooCommerce"
+msgstr ""
+
+#: engine/theme-options.php:847
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: engine/theme-options.php:854
+msgid "Woocommerce sidebar position"
+msgstr ""
+
+#: engine/theme-options.php:855
+msgid "Select Woocommerce sidebar position."
+msgstr ""
+
+#: engine/theme-options.php:867
+msgid "Single product header title section"
+msgstr ""
+
+#: engine/theme-options.php:875
+msgid "Single product sidebar"
+msgstr ""
+
+#: engine/theme-options.php:878 engine/theme-options.php:915
+#: engine/theme-options.php:923 engine/theme-options.php:965
+msgid "Disabled"
+msgstr ""
+
+#: engine/theme-options.php:879
+msgid "If <strong>Enable</strong>, sidebar shop will display on single product"
+msgstr ""
+
+#: engine/theme-options.php:884
+msgid "Single product zoom images"
+msgstr ""
+
+#: engine/theme-options.php:886 engine/theme-options.php:1138
+#: engine/theme-options.php:1177
+msgid "On"
+msgstr ""
+
+#: engine/theme-options.php:887 engine/theme-options.php:1139
+#: engine/theme-options.php:1178
+msgid "Off"
+msgstr ""
+
+#: engine/theme-options.php:888
+msgid "Turn single product zoom image when hover on or off"
+msgstr ""
+
+#: engine/theme-options.php:893
+msgid "Default active tab panel on single product page"
+msgstr ""
+
+#: engine/theme-options.php:894
+msgid ""
+"The zero-based index of the panel that is active (open). A negative value "
+"selects panels going backward from the last panel. 0 will active first panel."
+msgstr ""
+
+#: engine/theme-options.php:901
+msgid "Woocommerce products layout"
+msgstr ""
+
+#: engine/theme-options.php:902
+msgid "Set number column in products archive page."
+msgstr ""
+
+#: engine/theme-options.php:912
+msgid "Enable masonry grid on shop archive"
+msgstr ""
+
+#: engine/theme-options.php:920
+msgid "Enable product overlay"
+msgstr ""
+
+#: engine/theme-options.php:929
+msgid "Product title"
+msgstr ""
+
+#: engine/theme-options.php:931
+msgid "Always show"
+msgstr ""
+
+#: engine/theme-options.php:932
+msgid "Show on hover"
+msgstr ""
+
+#: engine/theme-options.php:936
+msgid "Choose the way to display product title and price on loop shop"
+msgstr ""
+
+#: engine/theme-options.php:942
+msgid "Shop product categories"
+msgstr ""
+
+#: engine/theme-options.php:944
+msgid "Automatically"
+msgstr ""
+
+#: engine/theme-options.php:945
+msgid "Manually"
+msgstr ""
+
+#: engine/theme-options.php:948
+msgid "Show shop product categories on header"
+msgstr ""
+
+#: engine/theme-options.php:953
+msgid "Product categories show on shop archive"
+msgstr ""
+
+#: engine/theme-options.php:954
+msgid "Display product categories menu on shop archive page"
+msgstr ""
+
+#: engine/theme-options.php:955
+msgid "Enter product categories slug, uses a comma to separate categories slug"
+msgstr ""
+
+#: engine/theme-options.php:962
+msgid "Enable single product share links"
+msgstr ""
+
+#: engine/theme-options.php:971
+msgid "Share product on"
+msgstr ""
+
+#: engine/theme-options.php:972
+msgid "Display sharing buttons on the single product pages"
+msgstr ""
+
+#: engine/theme-options.php:989
+msgid "Newsletter Settings"
+msgstr ""
+
+#: engine/theme-options.php:990
+msgid "Newsletter infomation settings"
+msgstr ""
+
+#: engine/theme-options.php:996
+msgid "Mailchimp API Key"
+msgstr ""
+
+#: engine/theme-options.php:998
+#, php-format
+msgid "<a href=\"%s\" target=\"__blank\">Click here to get your Mailchimp API key</a>"
+msgstr ""
+
+#: engine/theme-options.php:1003
+msgid "Mailchimp List ID"
+msgstr ""
+
+#: engine/theme-options.php:1005
+#, php-format
+msgid "<a href=\"%s\" target=\"__blank\">How to find Mailchimp list ID</a>"
+msgstr ""
+
+#: engine/theme-options.php:1010
+msgid "Subscribe Form Title"
+msgstr ""
+
+#: engine/theme-options.php:1016
+msgid "Email Input Placeholder"
+msgstr ""
+
+#: engine/theme-options.php:1017
+msgid "Your email address..."
+msgstr ""
+
+#: engine/theme-options.php:1028
+msgid "Success Message"
+msgstr ""
+
+#: engine/theme-options.php:1029
+msgid "Your email added..."
+msgstr ""
+
+#: engine/theme-options.php:1036
+msgid "Social Settings"
+msgstr ""
+
+#: engine/theme-options.php:1042
+msgid "Twitter"
+msgstr ""
+
+#: engine/theme-options.php:1049
+msgid "Facebook"
+msgstr ""
+
+#: engine/theme-options.php:1056
+msgid "Google Plus"
+msgstr ""
+
+#: engine/theme-options.php:1063
+msgid "Dribbble"
+msgstr ""
+
+#: engine/theme-options.php:1070
+msgid "Behance"
+msgstr ""
+
+#: engine/theme-options.php:1077
+msgid "Tumblr"
+msgstr ""
+
+#: engine/theme-options.php:1084
+msgid "Instagram"
+msgstr ""
+
+#: engine/theme-options.php:1091
+msgid "Pinterest"
+msgstr ""
+
+#: engine/theme-options.php:1098
+msgid "Youtube"
+msgstr ""
+
+#: engine/theme-options.php:1105
+msgid "Vimeo"
+msgstr ""
+
+#: engine/theme-options.php:1112
+msgid "Linkedin"
+msgstr ""
+
+#: engine/theme-options.php:1119
+msgid "RSS"
+msgstr ""
+
+#: engine/theme-options.php:1128
+msgid "Coming Soon Settings"
+msgstr ""
+
+#: engine/theme-options.php:1134
+msgid "Coming soon mode"
+msgstr ""
+
+#: engine/theme-options.php:1135
+msgid "Turn coming soon mode on/off"
+msgstr ""
+
+#: engine/theme-options.php:1136
+msgid "If turn on, every one need login to view site"
+msgstr ""
+
+#: engine/theme-options.php:1144
+msgid "Coming Soon Site Title"
+msgstr ""
+
+#: engine/theme-options.php:1145
+msgid "We are coming soon"
+msgstr ""
+
+#: engine/theme-options.php:1152
+msgid "Coming Soon Image"
+msgstr ""
+
+#: engine/theme-options.php:1154
+msgid "Upload image for coming soon page"
+msgstr ""
+
+#: engine/theme-options.php:1161
+msgid "Coming soon text"
+msgstr ""
+
+#: engine/theme-options.php:1162
+msgid ""
+"Our site is currently undergoing scheduled maintenance<br>For any assistance "
+"in the meantime, drop us a line <a href=\"mailto:help@essencestore."
+"com\">help@essencestore.com</a>"
+msgstr ""
+
+#: engine/theme-options.php:1168
+msgid "Coming soon date"
+msgstr ""
+
+#: engine/theme-options.php:1174
+msgid "Coming soon news letter"
+msgstr ""
+
+#: engine/theme-options.php:1175
+msgid "If turn on, news latter form will show on coming soon page"
+msgstr ""
+
+#: engine/theme-options.php:1184
+msgid "Coming soon when count down date expired"
+msgstr ""
+
+#: engine/theme-options.php:1186
+msgid "Disable coming soon"
+msgstr ""
+
+#: engine/theme-options.php:1187
+msgid "Don't disable coming soon"
+msgstr ""
+
+#: engine/theme-options.php:1196
+msgid "404 Settings"
+msgstr ""
+
+#: engine/theme-options.php:1197
+msgid "Setting for 404 error page"
+msgstr ""
+
+#: engine/theme-options.php:1203
+msgid "404 header title"
+msgstr ""
+
+#: engine/theme-options.php:1210
+msgid "404 Image"
+msgstr ""
+
+#: engine/theme-options.php:1212
+msgid "Upload 404 image"
+msgstr ""
+
+#: engine/theme-options.php:1218
+msgid "Text"
+msgstr ""
+
+#: engine/theme-options.php:1232
+msgid "Theme Information 1"
+msgstr ""
+
+#: engine/theme-options.php:1233 engine/theme-options.php:1239
+#: engine/theme-options.php:1243
+msgid "<p>This is the tab content, HTML is allowed.</p>"
+msgstr ""
+
+#: engine/theme-options.php:1238
+msgid "Theme Information 2"
+msgstr ""
+
+#: engine/theme-options.php:1263 engine/theme-options.php:1264
+msgid "ESSENCE"
+msgstr ""
+
+#: engine/theme-options.php:1289
+msgid "Theme Studio WordPress Team"
+msgstr ""
+
+#: footer-fullwidth.php:45 footer.php:45
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: functions.php:66
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:67
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:148
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:169
+#, php-format
+msgid "Footer Sidebar %d"
+msgstr ""
+
+#: functions.php:171
+msgid "This is a footer sidebar"
+msgstr ""
+
+#: functions.php:187
+msgid "Sidebar Shop"
+msgstr ""
+
+#: functions.php:381
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: header-fullwidth.php:45 header.php:44
+msgid "Skip to content"
+msgstr ""
+
+#: single-portfolio.php:79 template-parts/single-post-sharing.php:43
+#, php-format
+msgid "Post status \"%s\" on Twitter"
+msgstr ""
+
+#: single-portfolio.php:101 template-parts/single-post-sharing.php:64
+#, php-format
+msgid "Pin \"%s\" on Pinterest"
+msgstr ""
+
+#: single-portfolio.php:143
+msgid "PREVIOUS PROJECT"
+msgstr ""
+
+#: single-portfolio.php:156
+msgid "NEXT PROJECT"
+msgstr ""
+
+#: single-portfolio.php:160
+msgid "END PROJECT"
+msgstr ""
+
+#: taxonomy-portfolio_cat.php:99
+msgid "View Project"
+msgstr ""
+
+#: taxonomy-portfolio_cat.php:129
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:20
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:24
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:29
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content-search.php:80
+#: template-parts/content-search.php:159 template-parts/content-single.php:33
+#: template-parts/content.php:72 template-parts/content.php:145
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-search.php:71 template-parts/content-search.php:150
+#: template-parts/content.php:65 template-parts/content.php:138
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/header-layout.php:175
+msgid "Do you want to search?"
+msgstr ""
+
+#: template-parts/header-slider.php:53
+msgid "Header Scroll Down"
+msgstr ""
+
+#: template-parts/social-items.php:16
+msgid "Twitter link"
+msgstr ""
+
+#: template-parts/social-items.php:24
+msgid "Facebook link"
+msgstr ""
+
+#: template-parts/social-items.php:32
+msgid "Google Plus link"
+msgstr ""
+
+#: template-parts/social-items.php:40
+msgid "Dribbble link"
+msgstr ""
+
+#: template-parts/social-items.php:48
+msgid "Behance link"
+msgstr ""
+
+#: template-parts/social-items.php:56
+msgid "Tumblr link"
+msgstr ""
+
+#: template-parts/social-items.php:64
+msgid "Instagram link"
+msgstr ""
+
+#: template-parts/social-items.php:72
+msgid "Pinterest link"
+msgstr ""
+
+#: template-parts/social-items.php:80
+msgid "Youtube link"
+msgstr ""
+
+#: template-parts/social-items.php:88
+msgid "Vimeo link"
+msgstr ""
+
+#: template-parts/social-items.php:96
+msgid "LinkedIn link"
+msgstr ""
+
+#: template-parts/social-items.php:104
+msgid "RSS feed"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Essence"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://essence.themestudio.net/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Rename to \"essence\""
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemeStudio"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://themestudio.net/"
+msgstr ""
+
+#: comments.php:38
+msgid "Submit Comment"
+msgstr "Enviar Comentário"
+
+#: engine/theme-options.php:1011
+msgid "Subscribe our newsletter"
+msgstr "Assinar Newsletter"
+
+#: engine/theme-options.php:1022
+msgid "Submit Text"
+msgstr "Enviar Texto"
+
+#: engine/theme-options.php:1023
+msgid "Submit"
+msgstr "Enviar"
+
+#: comments.php:33
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">Log out?</a>"
+msgstr "Logado como <a href=\"%1$s\">%2$s</a> <a href=\"%3$s\">Deslogar?</a>"
+
+#: engine/advance-functions.php:972
+msgid "You are logged in!"
+msgstr "Você está logado!"
+
+#: engine/advance-functions.php:1006
+msgid "Logged in successfully"
+msgstr "Logado com sucesso"
+
+#: single-portfolio.php:58
+msgctxt "Compartilhe:"
+msgid "Share :"
+msgstr "Compartilhe:"
+
+#: single-portfolio.php:68 template-parts/single-post-sharing.php:33
+#, php-format
+msgid "Share \"%s\" on Facebook"
+msgstr "Compartilhe \"%s\" no Facebook"
+
+#: single-portfolio.php:90 template-parts/single-post-sharing.php:53
+#, php-format
+msgid "Share \"%s\" on Google Plus"
+msgstr "Compartilhe \"%s\" no Google Plus"
+
+#: single-portfolio.php:112 template-parts/single-post-sharing.php:75
+#, php-format
+msgid "Share \"%s\" on LinkedIn"
+msgstr "Compartilhe \"%s\" no LinkedIn"
+
+#: template-parts/single-post-sharing.php:25
+msgctxt "Compartilhe:"
+msgid "Share:"
+msgstr "Compartilhe:"

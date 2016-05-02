@@ -1,0 +1,17 @@
+ #otw-bm-list-1 .otw_blog_manager-caption-excpert{} #otw-bm-list-1 .otw_blog_manager-caption-title a{} #otw-bm-list-1 .otw_blog_manager-blog-continue-reading{} #otw-bm-list-1 .otw-widget-content{} #otw-bm-list-1 .otw_blog_manager-blog-content p{} #otw-bm-list-1 .otw_blog_manager-blog-title a{} #otw-bm-list-1 .otw-widget-title{} #otw-bm-list-1 .otw_blog_manager-blog-title{} #otw-bm-list-1 .otw_blog_manager-blog-meta-wrapper .head{} #otw-bm-list-1 .otw_blog_manager-blog-meta-wrapper a{} #otw-bm-list-1 .otw_blog_manager-blog-meta-wrapper{}.otw-row.otw_blog_manager-blog-item-holder {
+    margin-top: 30px;
+}
+
+.otw_blog_manager-blog-author {
+    display: none !important;
+}
+
+.otw_blog_manager-pagination {
+    margin-top: 40px;
+}
+
+.otw_blog_manager-pagination span.current {
+    border-color: #B66F6F !important;
+    background: #B66F6F !important;
+    color: #FFF !important;
+}

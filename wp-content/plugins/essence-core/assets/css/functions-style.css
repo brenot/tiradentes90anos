@@ -1,0 +1,61 @@
+
+/**
+  * =================================================================================
+  * This file content css for each function you chosen for this plugin.
+  * =================================================================================
+  **/
+
+
+.image-intro-wrap {
+    position: relative;
+    overflow: hidden;
+}
+.image-intro-wrap .image-wrap {
+    float: left;
+}
+
+.image-intro-wrap .image-wrap figure {
+    float: left;
+}
+
+.image-intro-wrap .image-wrap img {
+
+}
+
+.image-intro-wrap .intro-box {
+    position: absolute;
+    right: 60px;
+    height: 670px;
+    display: block;
+    width: 50%;
+    padding: 120px;
+}
+.image-intro-wrap .intro-box .intro-border {
+    position: absolute;
+    background-color: #fff;
+    mix-blend-mode: difference;
+}
+.image-intro-wrap .intro-box .intro-border-top {
+    top: 60px;
+    right: 0;
+    width: 100%;
+    height: 5px;
+}
+.image-intro-wrap .intro-box .intro-border-bottom {
+    bottom: 60px;
+    left: 0;
+    width: 100%;
+    height: 5px;
+}
+.image-intro-wrap .intro-box .intro-border-left {
+    width: 5px;
+    height: 540px;
+    left: 0;
+    top: 65px;
+}
+.image-intro-wrap .intro-box .intro-border-right {
+    width: 5px;
+    height: 540px;
+    right: 0;
+    top: 65px;
+}

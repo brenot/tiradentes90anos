@@ -1,0 +1,924 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog Manager Light\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: Mon May 02 2016 16:24:38 GMT-0300 (BRT)\n"
+"PO-Revision-Date: Mon May 02 2016 16:26:41 GMT-0300 (BRT)\n"
+"Last-Translator: Redação Alerj <nirlandy.pinheiro@casadigital.com>\n"
+"Language-Team: \n"
+"Language: Portuguese (Brazil)\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: pt_BR\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the plugin
+msgid "Blog Manager Light"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://OTWthemes.com"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Blog Manager for WordPress adds tons of blog functionality to your WordPress "
+"based website."
+msgstr ""
+
+#. Author of the plugin
+msgid "OTWthemes.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://themeforest.net/user/OTWthemes"
+msgstr ""
+
+#: /otw_blog_manager_light.php:151
+msgid "Blog Manager Lists"
+msgstr ""
+
+#: /otw_blog_manager_light.php:152 /views/otw_blog_manager_list.php:13
+msgid "Blog Lists"
+msgstr ""
+
+#: /otw_blog_manager_light.php:160
+msgid "Blog Manager | Add Lists"
+msgstr ""
+
+#: /otw_blog_manager_light.php:161
+msgid "Add Lists"
+msgstr ""
+
+#: /otw_blog_manager_light.php:169
+msgid "Blog Manager | Options"
+msgstr ""
+
+#: /otw_blog_manager_light.php:170
+msgid "Options"
+msgstr ""
+
+#: /otw_blog_manager_light.php:219
+msgid "Are you sure you want to delete "
+msgstr ""
+
+#: /otw_blog_manager_light.php:220
+msgid "Select Images"
+msgstr ""
+
+#: /otw_blog_manager_light.php:221
+msgid "Add Image"
+msgstr ""
+
+#: /otw_blog_manager_light.php:306
+msgid "OTW Media Item"
+msgstr ""
+
+#: /otw_blog_manager_light.php:440
+msgid "Blog List Name is Required"
+msgstr ""
+
+#: /otw_blog_manager_light.php:445
+msgid "Please select a Blog List Template"
+msgstr ""
+
+#: /otw_blog_manager_light.php:453
+msgid "Please select a Category or Tag or Author."
+msgstr ""
+
+#: /otw_blog_manager_light.php:769
+msgid ""
+"Woops, we have encountered an error. The List you are trying to use can not "
+"be found: "
+msgstr ""
+
+#: /classes/otw_dispatcher.php:54
+msgid "There was an error in OTWDispatcher: $results or $options is missing"
+msgstr ""
+
+#: /classes/otw_dispatcher.php:95
+msgid "There was an error in OTWDispatcher -> buildInterfaceBlogItems "
+msgstr ""
+
+#: /classes/otw_blog_manager_vc_addon.php:47 /classes/otw_blog_manager_vc_addon.
+#: php:53
+msgid "Blog Manager"
+msgstr ""
+
+#: /classes/otw_blog_manager_vc_addon.php:48
+msgid "Select a post list created with Blog Manager plugin"
+msgstr ""
+
+#: /classes/otw_blog_manager_vc_addon.php:59
+msgid "Blog list"
+msgstr ""
+
+#: /classes/otw_blog_manager_vc_addon.php:62
+msgid "Description for blog list."
+msgstr ""
+
+#: /classes/otw_blog_manager_widgets.php:17
+msgid ""
+"With the help of this widget you can add your created Widget Lists to the "
+"sidebars"
+msgstr ""
+
+#: /classes/otw_blog_manager_widgets.php:45
+msgid "Title:"
+msgstr ""
+
+#: /classes/otw_blog_manager_widgets.php:48
+msgid "OTW Blog List Widget:"
+msgstr ""
+
+#: /classes/otw_blog_manager_widgets.php:50
+msgid "Select Widget"
+msgstr ""
+
+#. Description of the plugin
+msgid "OTW Form"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:6
+msgid "Grid - Blog 1 Column"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:7
+msgid "Grid - Blog 4 Columns"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:8
+msgid "Image Left - Blog 1 Column"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:9
+msgid "Widget Style - Image Left"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:10
+msgid "Timeline"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:11 /views/otw_blog_manager_meta_box.php:34
+msgid "Slider"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:12
+msgid "Carousel - 3 Columns"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:16 /views/otw_blog_manager_add_list.php:
+#: 21 /views/otw_blog_manager_add_list.php:43 /views/otw_blog_manager_add_list.
+#: php:81 /views/otw_blog_manager_add_list.php:102
+msgid "None (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:17
+msgid "Standard Pagination"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:22
+msgid "Share Icons"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:23
+msgid "Share Buttons Small"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:24
+msgid "Share Buttons Large"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:25
+msgid "Like Buttons"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:29
+msgid "Latest Created (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:30
+msgid "Oldest Created"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:31
+msgid "Latest Modified"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:32
+msgid "Oldest Modified"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:33
+msgid "Alphabetically: A-Z"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:34
+msgid "Alphabetically: Z-A"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:38
+msgid "None"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:39
+msgid "Full (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:44
+msgid "Icon Expand"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:45
+msgid "Icon YouTube Play"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:46
+msgid "Icon File"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:47
+msgid "Icon Book"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:48
+msgid "Icon Check Sign"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:49
+msgid "Icon Comments"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:50
+msgid "Icon OK Sign"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:51
+msgid "Icon Zoom In"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:52
+msgid "Icon Thumbs Up Alt"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:53
+msgid "Icon Plus Sign"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:54
+msgid "Icon Cloud"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:55
+msgid "Icon Chevron Sign Right"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:56
+msgid "Icon Hand Right"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:57
+msgid "Icon Fullscreen"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:61
+msgid "Single Post (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:65
+msgid "Horizontal (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:66
+msgid "Vertical"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:70
+msgid "Left (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:71
+msgid "Center"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:72
+msgid "Right"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:76
+msgid "Full Content on Hover (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:77
+msgid "Slide Content on Hover"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:103
+msgid "Regular"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:104
+msgid "Bold"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:105
+msgid "Italic"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:106
+msgid "Bold and Italic"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:110
+msgid "Same Window / Tab (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:111
+msgid "New Window / Tab"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:115
+msgid "categories OR tags (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:116
+msgid "categories AND tags"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:135
+msgid "Edit Blog List"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:137
+msgid "Create New Blog List"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:140
+msgid "Back"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:151 /views/otw_blog_manager_list.php:19
+msgid "Item was saved."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:164
+msgid "Oops! Please check form for errors."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:177 /views/otw_blog_manager_list.php:3
+msgid "Blog List Name"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:180
+msgid "Note: The List Name is going to be used ONLY for the admin as a reference."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:190
+msgid "Choose Template"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:214
+msgid "Categories:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:233 /views/otw_blog_manager_add_list.php:
+#: 265 /views/otw_blog_manager_add_list.php:299
+msgid "Select All"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:237
+msgid " categories selected"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:241
+msgid ""
+"Choose categories to include posts from those categories in your list or use "
+"the Select all checkbox to include posts from all categories."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:246 /skeleton/components/meta_tags.php:9
+msgid "Tags:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:269
+msgid " tags selected"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:273
+msgid ""
+"Choose tags to include posts from those tags in your list or use the Select "
+"all checkbox to include posts from all tags."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:278
+msgid "Post Author:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:303
+msgid " authors selected"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:307
+msgid ""
+"Choose authors to include posts from those authors in your list or use the "
+"Select all checkbox to include posts from all authors."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:330 /views/otw_blog_manager_add_list.php:
+#: 330
+msgid "List Elements and Order"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:337
+msgid "Blog List Items"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:341
+msgid "Active Elements"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:347
+msgid "Inactive Elements"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:349
+msgid "Media"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:350
+msgid "Title"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:351
+msgid "Meta"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:352
+msgid "Description / Excerpt"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:353
+msgid "Continue Reading"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:357
+msgid ""
+"Drag & drop the items that you'd like to show in the Active Elements area on "
+"the left. Arrange them however you want to see them in your list."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:360
+msgid ""
+"The setting will not affect the following templates: Slider, Carousel, "
+"Widget Style, Carousel Widget"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:366
+msgid "Show Pagination"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:383
+msgid "Choose pagination type for your template."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:384
+msgid "Note:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:385
+msgid "Widget Style templates support only Load More Pagination."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:386
+msgid "Slider templates do not support pagination."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:387
+msgid "Timeline template will have the Infinite Scroll by default."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:393
+msgid "Show Delimiter"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:401
+msgid "No (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:404
+msgid "Yes"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:405
+msgid "Enable 1px line after post."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:419 /views/otw_blog_manager_add_list.php:
+#: 419
+msgid "Posts Order and Limits"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:426
+msgid "Number of Posts in the List:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:430
+msgid "Please leave empty for all posts."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:435
+msgid "Number of Posts to Skip:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:439
+msgid "By default this field is empty which means no posts will be skipped."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:444
+msgid "Number of Posts per Page:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:448
+msgid ""
+"Show pagination should be ebabled in the section above in order for this "
+"option to work."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:453
+msgid "Order of Posts:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:468
+msgid ""
+"Choose the order of the posts in the list. Timeline Template will ignore "
+"this selection and use Latest Created."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:481 /views/otw_blog_manager_add_list.php:
+#: 481
+msgid "Settings"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:488
+msgid "Excerpt Length:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:492
+msgid ""
+"Excerpt is pulled from excerpt field for each post. If excerpt fields is "
+"empty excerpt is pulled from the text area (the post editor). If Excerpt "
+"length is empty or 0 this means pull the entire text."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:497
+msgid "Click on Image Links to?"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:512
+msgid "Choose where a click on the image links to."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:517
+msgid "Click on Title Links to?"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:532
+msgid "Choose where a click on the title links to."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:537
+msgid "Hover Effect"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:552
+msgid "Choose the hover for the images in the posts list."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:554
+msgid ""
+"The setting will not affect the following templates since they have their "
+"own specific hovers: Slider, Carousel."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:557
+msgid "Widget Templates support only Full and None hover options."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:563
+msgid "Thumbnail Width"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:568
+msgid ""
+"The width for your thumbnails in px. If left empty the default value will be "
+"used. Default value for the selected template is: "
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:573
+msgid "Thumbnail Height"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:578
+msgid ""
+"The height for your thumbnails in px. If left empty the default value will "
+"be used. Default value for the selected template is: "
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:583
+msgid "Thumnail Crop"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:588
+msgid "Crop center-center (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:589
+msgid "Crop center-left"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:590
+msgid "Crop center-right"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:591
+msgid "Crop top-center"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:592
+msgid "Crop top-left"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:593
+msgid "Crop top-right"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:594
+msgid "Crop bottom-center"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:595
+msgid "Crop bottom-left"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:596
+msgid "Crop bottom-right"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:597
+msgid "No cropping, resize only"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:599
+msgid "Crop or just resize the thumbnail."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:604
+msgid "Small Images"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:609
+msgid "Add background (default)"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:610
+msgid "Don't add background"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:612
+msgid ""
+"This option will affect only images which original size is smaller than the "
+"desired size.<br />'Add background' will add background to complete the "
+"image size to the desired image size. 'Don't add background' will not add "
+"background and it will leave the images as they originally are."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:617
+msgid "Image Background Color:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:632
+msgid "The extra background color to complete the image to the desired size."
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:646 /views/otw_blog_manager_add_list.php:
+#: 646
+msgid "Styles"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:653
+msgid "Custom CSS:"
+msgstr ""
+
+#: /views/otw_blog_manager_add_list.php:671 /views/otw_blog_manager_settings.php:23
+msgid "Save"
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:4
+msgid "Short Code"
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:5
+msgid "Author"
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:6
+msgid "Created"
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:7
+msgid "Modified"
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:14
+msgid "Add List"
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:24 /views/otw_blog_manager_settings.php:14
+msgid "Custom CSS file has been updated."
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:29
+msgid ""
+"The folder 'wp-content/uploads/' is not writable. Please make sure you add "
+"read/write permissions to this folder."
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:89
+msgid "Edit"
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:90
+msgid "Delete"
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:112
+msgid "No custom blog list found."
+msgstr ""
+
+#: /views/otw_blog_manager_list.php:113
+msgid "Add a list"
+msgstr ""
+
+#: /views/otw_blog_manager_settings.php:3
+msgid "Blog List Settings"
+msgstr ""
+
+#: /views/otw_blog_manager_settings.php:18
+msgid "Adjust your own CSS for all of your Blog Lists. Please use with caution."
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:9
+msgid "YouTube"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:13
+msgid "Vimeo"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:17
+msgid "Sound Cloud"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:30
+msgid "Image"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:105
+msgid "Choose Media Type"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:125
+msgid "Enter YouTube URL"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:134
+msgid "Enter Viemo URL"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:143
+msgid "Enter SoundCloud URL"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:151
+msgid "Select Video File"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:154
+msgid "Select Audio File"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:155
+msgid ""
+"Note: At this time WordPress will support only MP4 files for native "
+"embededing"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:161
+msgid "Select File"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:163 /views/otw_blog_manager_meta_box.php:
+#: 174
+msgid "Add File"
+msgstr ""
+
+#: /views/otw_blog_manager_meta_box.php:172
+msgid "Slider Images"
+msgstr ""
+
+#: /views/otw_blog_manager_help.php:2
+msgid ""
+"<p>Blog Manager Light: <a href=\"http://otwthemes.com/online-documentation-"
+"blog-manager-light/?utm_source=wp."
+"org&utm_medium=admin&utm_content=docs&utm_campaign=bm\" "
+"target=\"_blank\">Documentaion page</a> and <a href=\"http://otwthemes."
+"com/demos/1ts/redirect.php?item=Blog%20Manager%20Light&utm_source=wp."
+"org&utm_medium=admin&utm_content=demo&utm_campaign=bm\" target=\"_blank\">Demo "
+"page</a>.</p> <p>Want tones of more options and premium support? "
+"<strong>Upgrade to the Pro version of the <a href=\"http://codecanyon."
+"net/item/blog-manager-for-wordpress/9982292?ref=OTWthemes&utm_source=wp."
+"org&utm_medium=admin&utm_content=upgrade&utm_campaign=bm\" "
+"target=\"_blank\">Blog Manager for WordPress</a>.</strong></p> <p>Get some "
+"more awesome FREE plugins: <a href=\"http://otwthemes.com/product/portfolio-"
+"manager-lite-wordpress-plugin/?utm_source=wp."
+"org&utm_medium=admin&utm_content=otherfreep&utm_campaign=bm\" "
+"target=\"_blank\">Portfolio Manager</a>, <a href=\"http://otwthemes."
+"com/product/widgetize-pages-light-wordpress-plugin?utm_source=wp."
+"org&utm_medium=admin&utm_content=otherfreep&utm_campaign=bm\" "
+"target=\"_blank\">Widgetize Pages</a>, <a href=\"http://otwthemes."
+"com/product/content-manager-light-wordpress-plugin?utm_source=wp."
+"org&utm_medium=admin&utm_content=otherfreep&utm_campaign=bm\" "
+"target=\"_blank\">Content Manager</a> </p>"
+msgstr ""
+
+#: /skeleton/components/pagination.php:19
+msgid "« Previous"
+msgstr ""
+
+#: /skeleton/components/pagination.php:20
+msgid "Next »"
+msgstr "Próximo »"
+
+#: /skeleton/components/pagination.php:33
+msgid "Page"
+msgstr "Página"
+
+#: /skeleton/components/pagination.php:35
+msgid "of"
+msgstr "de"
+
+#: /skeleton/components/pagination.php:81 /skeleton/components/widget_pagination.
+#: php:16
+msgid "Load More..."
+msgstr "Carregar mais..."
+
+#: /skeleton/components/view_all.php:12 /skeleton/components/widget_list_title.
+#: php:10
+msgid "View All"
+msgstr "Ver todos"
+
+#: /skeleton/components/widget_pagination.php:15
+msgid "No more pages to load."
+msgstr "Sem mais páginas para carregar"
+
+#: /skeleton/components/meta_categories.php:9
+msgid "Category:"
+msgstr "Categoria"
+
+#: /skeleton/components/meta_categories.php:19
+msgid "View all posts in "
+msgstr "Ver todos os posts em"
+
+#: /skeleton/components/continue_read.php:4
+msgid "Continue reading →"
+msgstr "Continuar Lendo"
+
+#: /skeleton/components/meta_comments.php:4
+msgid "Comments:"
+msgstr "Comentários "
+
+#: /skeleton/components/meta_comments.php:8
+msgid "Comment on "
+msgstr "Comentários em"
+
+#: /skeleton/components/meta_date.php:5
+msgid "Posted:"
+msgstr "Postado:"
+
+#: /skeleton/components/meta_authors.php:4
+msgid "By:"
+msgstr "Por:"
+
+#: /skeleton/components/meta_authors.php:9
+msgid "Posts by "
+msgstr "Postado por:"
