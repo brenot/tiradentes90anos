@@ -1,0 +1,138 @@
+@CHARSET "UTF-8";
+
+/*cancel icon on selected things*/
+ul li{
+    list-style-type: none;
+}
+.my_chosen::before {
+    background-image: url("cancel.png");
+    width: 15px;
+    height: 15px;
+    background-size: 100% 100%;
+    float: left;
+    margin: 3px 3px 0px;
+    content: "";
+    cursor: pointer;
+}
+
+
+/* css for tag-cloud*/
+.ccas_ajax_tagcloud a {
+    font-size: 15px;
+}
+
+/* category*/
+.ccas-product-categories li a input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+
+
+/*
+* css for search box for search product widget
+*/
+.ccas_searched_product_ul {
+    background-color: #f7f7f7;
+    box-shadow: 0 10px 10px #ccc;
+    max-width: 224px;
+    position: absolute;
+    width: 100%;
+    z-index: 999;
+    max-width: 80%;
+}
+
+.ccas_searched_pro_list {
+    border-bottom: 1px solid #ccc;
+}
+
+.ccas_searched_pro_list img {
+    padding: 5px;
+}
+
+.ccas_disign_adjust {
+    display: inline-block;
+}
+
+#suggesstion-box_ccas_ {
+    position: relative;
+    display: block;
+}
+
+
+.caf_label_class li {
+    background-color: #ddd;
+    border: 2px solid #ccc;
+    float:left;
+    margin-bottom: 15px;
+    margin-left: 5px;
+    padding: 8px 8px !important;
+    text-align: center;
+    
+}
+
+/*
+*cscs
+*/
+
+.caf_picker_class li a {
+    border: 1px solid #ccc;
+    display: block;
+    height: 32px;
+    margin-bottom: 2px;
+    margin-left: 3px;
+    width: 25px;
+}
+.caf_picker_class li{
+	float:left;
+}
+
+.ccas_pro_search_div input#search-box_ccas_ {
+    display: inline-block;
+    margin-right: 0px;
+    width: 80%;
+}
+.ccas_ajax_shop_loading_div {
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%;
+    left: 0;
+    padding-top: 30%;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 100%;
+    z-index: 9999999;
+}
+.ccas_ajax_shop_loading_div img {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blink_me {
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*
+* css for type-n-search loader
+*/
+img.ccas_ajax_pro_search_loader{
+    width:35px;
+    height:35px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*
+* css for search cross button
+*/
+.ccas_pro_cross_class {
+    position: absolute;
+    margin-left: -24px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.ccas_pro_cross_class img {
+    width: 20px;
+}

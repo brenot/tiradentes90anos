@@ -1,0 +1,65 @@
+.cmb2-textarea-code,.cmb2_textarea {
+    width: 100% !important;
+}
+.textarea-large {
+    min-height: 450px;
+}
+.textarea-small {
+    height: 100px;
+}
+
+.datepicker {
+
+}
+
+.datepicker table {
+
+}
+
+.datepicker table thead {
+
+}
+
+.datepicker table tr {
+    height: 30px;
+}
+
+#essence-opt_header_scroll_down_style .redux-image-select img {
+    max-width: 150px;
+    max-height: 100px;
+    background-color: rgba(0, 0, 0, 0.36);
+    margin-right: 15px;
+    padding: 5px;
+}
+
+/** Admin coming soon menu **/
+.ab-top-menu .essence_coming_soon_expired {
+    background-color: #ff5454 !important;
+}
+
+.ab-top-menu .essence-countdown-wrap {
+    min-width: 150px;
+    padding-left: 5px !important;
+}
+
+.ab-top-menu .essence-countdown-wrap .counter-item {
+    display: inline-block;
+    float: left;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.ab-top-menu .essence-countdown-wrap .counter-item .number {
+    float: left;
+    color: #ff8b8b;
+    margin-right: 2px !important;
+}
+
+.ab-top-menu .essence-countdown-wrap .counter-item .lbl {
+    float: left;
+    color: #ffe0e0;
+}
+
+.ab-top-menu .essence-countdown-wrap .counter-item span {
+    font-family: courier;
+}

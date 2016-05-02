@@ -1,0 +1,662 @@
+
+/**
+  * =================================================================================
+  * This file content css for each functions, widgets... you chosen.
+  * =================================================================================
+  **/
+
+
+
+/**
+  * START SHORTCODES CSS ===========================================.
+  */
+
+/* START CSS FOR SHORTCODE: SEPARATOR ====================================== */
+.separator{
+  color: #bda47d;
+  border-width: 1px 0 0;
+  margin: 35px auto;
+  width: 100%;
+  display: inline-block;
+}
+.separator-solid{
+    border-style: solid;
+}
+.separator-dashed {
+  border-style: dashed;
+}
+.separator-content {
+  overflow: hidden;
+  text-align: center;
+}
+.separator-content.separator-left{
+    text-align: left;
+}
+.separator-content.separator-right{
+    text-align: right;
+}
+.separator-content > .separator-innercontent {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 26px;
+  padding: 0;
+  position: relative;
+}
+.separator-content > .separator-innercontent .icon{
+    font-size: 22px;
+}
+.separator-content > .separator-innercontent::before, .separator-content > .separator-innercontent::after {
+  border-bottom: 1px solid;
+  content: "";
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 49%;
+  width: 9999%;
+}
+.separator-content.separator-dashed{border: none;}
+.separator-content.separator-solid{border: none;}
+.separator-content.separator-dashed > .separator-innercontent::before,
+.separator-content.separator-dashed > .separator-innercontent::after{
+    border-bottom-style: dashed;
+}
+.separator-content > .separator-innercontent::before {
+  margin-right: 15px;
+  right: 100%;
+}
+.separator-content > .separator-innercontent::after {
+  left: 100%;
+  margin-left: 15px;
+}
+/* END CSS FOR SHORTCODE: SEPARATOR ======================================== */
+
+/* START CSS FOR SHORTCODE: ICON BOX ====================================== */
+.ts-icon-boxes .iconbox-title h4 > a{
+    color: inherit;
+}
+.ts-icon-boxes:hover .iconbox-title h4 > a{
+    color: #bda47d;
+}
+.ts-icon-boxes p{
+    margin-bottom: 0px;
+}
+.ts-icon-boxes a.learn-more{
+    font-size: 11px;
+    font-family: 'HelveticaNeue';
+    color: #000000;
+    vertical-align: middle;
+    margin-top: 20px;
+    display: inline-block;
+}
+.ts-icon-boxes a.learn-more::after {
+  content: "\e069";
+  font-family: "linea-arrows-10";
+  font-size: 16px;
+  margin-left: 5px;
+  vertical-align: middle;
+}
+.ts-icon-boxes a.learn-more:hover{
+    color: #bda47d;
+}
+.ts-icon-boxes a.learn-more .icon{
+    font-size: 16px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.iconbox-style1{
+    padding: 0 20px;
+}
+.iconbox-style1 .iconbox-title .icon {
+  color: #bda47d;
+  display: inline-block;
+  font-size: 100px;
+  margin-bottom: 20px;
+}
+/*.iconbox-style2{
+    text-align: center;
+}*/
+.iconbox-style2 .iconbox-title .icon{
+    width: 130px;
+    height: 130px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    font-size: 50px;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    line-height: 130px;
+    background-color: #bda47d;
+    -webkit-transition: background 0.3s ease 0s, color 0.3s ease 0s, box-shadow 0.3s ease 0s;
+    -o-transition: background 0.3s ease 0s, color 0.3s ease 0s, box-shadow 0.3s ease 0s;
+    transition: background 0.3s ease 0s, color 0.3s ease 0s, box-shadow 0.3s ease 0s;
+    overflow: hidden;
+}
+.iconbox-style2.text-center .iconbox-title .icon{
+    margin: 0 auto 30px;
+}
+.iconbox-style2.text-left .iconbox-title .icon{
+    margin: 0 auto 30px 0;
+}
+.iconbox-style2.text-right .iconbox-title .icon{
+    margin: 0 0 30px auto;
+}
+.iconbox-style2 .iconbox-title .icon:before{
+    display: block;
+    line-height: inherit;
+}
+.iconbox-style2:hover .iconbox-title .icon::before {
+    -webkit-animation: toRightFromLeft 0.3s forwards;
+    -moz-animation: toRightFromLeft 0.3s forwards;
+    animation: toRightFromLeft 0.3s forwards;
+}
+@-webkit-keyframes toRightFromLeft {
+    49% {
+        -webkit-transform: translate(100%);
+    }
+    50% {
+        opacity: 0;
+        -webkit-transform: translate(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@-moz-keyframes toRightFromLeft {
+    49% {
+        -moz-transform: translate(100%);
+    }
+    50% {
+        opacity: 0;
+        -moz-transform: translate(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+@keyframes toRightFromLeft {
+    49% {
+        transform: translate(100%);
+    }
+    50% {
+        opacity: 0;
+        transform: translate(-100%);
+    }
+    51% {
+        opacity: 1;
+    }
+}
+
+.iconbox-style3{
+    margin-bottom: 80px;
+}
+.iconbox-style3 h4{
+    font-size: 21px;
+    display: inline-block;
+    margin: 0;
+    line-height: 42px;
+}
+.iconbox-style3:hover h4{
+    color: #bda47d;
+}
+.iconbox-style3 .iconbox-title{
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 15px;
+}
+.iconbox-style3 .iconbox-title .icon {
+  color: #000000;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.iconbox-style3:hover .iconbox-title .icon{
+    color: #bda47d;
+}
+.iconbox-style3.text-right .iconbox-title .icon{
+    float: right;
+}
+.iconbox-style3.text-left .iconbox-title .icon{
+    float: left;
+}
+.iconbox-style3.text-left .iconbox-title-content {
+  padding-left: 60px;
+}
+.iconbox-style3.text-right .iconbox-title-content {
+  padding-left: 60px;
+}
+.iconbox-title-content h4 {
+  letter-spacing: 0.75px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+.iconbox-style4 .icon {
+  display: inline-block;
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+.iconbox-underline {
+  border-width: 3px 0 0;
+  display: none;
+  margin: 0 auto 10px;
+  width: 20px;
+}
+.iconbox-style4 .iconbox-underline {
+  display: inline-block;
+}
+.iconbox-style4 {
+  margin-bottom: 45px;
+}
+/* END CSS FOR SHORTCODE: ICON BOX ======================================== */
+
+/* START CSS FOR SHORTCODE: FUN FACT ====================================== */
+.ts-funfact{
+    text-align: center;
+    padding: 20px 0;
+}
+.ts-funfact .number{
+    font-size: 60px;
+    color: #000000;
+}
+.ts-funfact .title-funfact{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+/* END CSS FOR SHORTCODE: FUN FACT ======================================== */
+
+/* START CSS FOR SHORTCODE: BANNER ====================================== */
+.ts-banner{
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.ts-banner .bg-banner{
+    width: 100%;
+     background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    -o-transition: all 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    transition: all 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+.ts-banner:hover .bg-banner{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.ts-banner .banner-text{
+    padding: 30px;
+    position: absolute;
+    width: 100%;
+    font-size: 15px;
+}
+.ts-banner .banner-text .banner-icon{
+    margin-bottom: 15px;
+    max-width: 80%;
+}
+.banner-style-1 .bg-banner{
+    min-height: 385px;
+}
+.banner-style-1 .banner-text{
+    bottom: 0;
+}
+.banner-style-2 .bg-banner{
+    min-height: 295px;
+}
+.banner-style-2 .banner-text{
+    top: 50%;
+    left: 0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-align: center;
+}
+.ts-banner .banner-text h4{
+    margin-bottom: 0;
+}
+.ts-banner .banner-text .sub-title{
+    display: block;
+}
+.banner-style-2 .banner-text .sub-title{
+    color: #000000;
+}
+.ts-banner .banner-text a.banner-link{
+    font-family: 'HelveticaNeue-Thin';
+    color: #000000;
+    margin-top: 5px;
+    display: block;
+}
+.ts-banner .banner-text a.banner-link:hover{
+    color: #bda47d;
+}
+.ts-banner .banner-text a.banner-link .icon{
+    font-size: 20px;
+    margin-left: 5px;
+}
+.ts-banner .banner-text a.banner-link .icon:before{
+    vertical-align: bottom;
+}
+/* END CSS FOR SHORTCODE: BANNER ======================================== */
+
+/* START CSS FOR SHORTCODE: PIE CHART ====================================== */
+.ts-progressbar {
+  margin-top: 30px;
+  position: relative;
+  text-align: center;
+}
+.ts-progressbar .chart-percent, .ts-progressbar .chart-text, .ts-progressbar .icon, .ts-progressbar .chart-image{
+  font-weight: 400;
+  left: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+.ts-progressbar .icon{
+    font-size: 70px;
+    color: #bda47d;
+}
+.ts-progressbar .chart-percent{
+    font-size: 45px;
+}
+.ts-progressbar .chart-text{
+    font-size: 30px;
+}
+.ts-progressbar .chart-image img{
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    margin-top: -3px;
+}
+.ts-progressbar .piechar-title{
+    margin-top: 25px;
+    margin-bottom: 0;
+}
+/* END CSS FOR SHORTCODE: PIE CHART ======================================== */
+
+/* START CSS FOR SHORTCODE: NEWS LETTER ====================================== */
+.ts-main-menu .ts-newsletter{
+    margin-top: 55px;
+    max-width: 300px;
+}
+.ts-main-menu .ts-newsletter h6,
+.ts-social-header h6{
+    color: #ffffff;
+    border-bottom: 1px solid #353535;
+    line-height: 35px;
+    letter-spacing: 0.25px;
+}
+.ts-main-menu .ts-newsletter h6{
+    margin-bottom: 25px;
+}
+.ts-social-header h6{
+    margin-bottom: 20px;
+}
+.ts-newsletter .form-newsletter input[type="text"]{
+    padding: 6px 15px;
+    background-color: #2d2d2d;
+    border: none;
+    color: inherit;
+}
+.ts-newsletter .form-newsletter input[type="text"]::-webkit-input-placeholder {
+   color: inherit;
+}
+.ts-newsletter .form-newsletter input[type="text"]:-moz-placeholder {
+   color: inherit;  
+}
+.ts-newsletter .form-newsletter input[type="text"]::-moz-placeholder {
+   color: inherit;  
+}
+.ts-newsletter .form-newsletter input[type="text"]:-ms-input-placeholder {  
+   color: inherit;  
+}
+.ts-newsletter .form-newsletter button[type="submit"]{
+    padding: 6px 15px;
+    font-size: 8px;
+}
+.ts-newsletter .return-message {
+  clear: both;
+  display: block;
+}
+.ts-newsletter .bg-danger {
+  background-color: transparent;
+  color: #ff0000;
+}
+.ts-social-header{
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+.ts-social-header ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 20px;
+}
+.ts-social-header ul li a{
+    font-size: 14px;
+    color: inherit;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    display: inline-block;
+    border: 1px solid;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+.ts-social-header ul li a:hover{
+    color: #bda47d;
+}
+
+.form-newsletter{
+    display: table;
+    position: relative;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.feature-newsletter input[type="text"]{
+    padding: 13px 18px;
+    border-color: rgba(0, 0, 0, 0.23);
+}
+.form-newsletter input[type="text"]{
+    width: 100%;
+    display: table-cell;
+}
+.form-newsletter > span {
+  display: table-cell;
+  vertical-align: middle;
+  width: 1%;
+}
+.feature-newsletter .form-newsletter button{
+    padding: 14px 27px;
+}
+/* newsletter shortcode */
+.ts-newsletter-shortcode h4{
+    margin: 0;
+}
+.ts-newsletter-shortcode p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.ts-newsletter-shortcode input[type="text"]{
+    padding: 13px 18px;
+    background-color: #ffffff;
+}
+.ts-newsletter-shortcode .form-newsletter button {
+  padding: 14px 27px;
+}
+
+
+/* END CSS FOR SHORTCODE: NEWS LETTER ======================================== */
+
+/* START CSS FOR SHORTCODE: GALLERY ====================================== */
+.ts-gallery{
+    overflow: hidden;
+    padding: 30px 0;
+}
+.ts-gallery .item-gallery{
+    float: left;
+    width: 25%;
+    position: relative;
+    overflow: hidden;
+}
+.ts-gallery .item-gallery:nth-child(4n+1){
+	clear: both;
+}
+.ts-gallery .item-gallery:after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.8);
+    opacity: 0;
+    filter: alpha(opacity=0);
+    -webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.ts-gallery .item-gallery:hover:after{
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+.ts-gallery .item-gallery img{
+    width: 100%;
+    -webkit-transition: all 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    -o-transition: all 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+    transition:all 3s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+.ts-gallery .item-gallery:hover img{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.ts-gallery .item-gallery .icon-hover{
+    width: 35px;
+    height: 1px;
+    z-index: 2;
+    background-color: #000000;
+    position: absolute;
+    left: 50%;
+    top:50%;
+    -webkit-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(0);
+    -ms-transform: translateX(-50%) translateY(-50%) scale(0);
+    -o-transform: translateX(-50%) translateY(-50%) scale(0);
+    transform: translateX(-50%) translateY(-50%) scale(0);
+    opacity: 0;
+    filter: alpha(opacity=0);
+
+}
+.ts-gallery .item-gallery .icon-hover:after{
+    content: "";
+    width: 1px;
+    height: 35px;
+    position: absolute;
+    background-color: #000000;
+    left: 17px;
+    top: -17px;
+}
+.ts-gallery .item-gallery:hover .icon-hover{
+    opacity: 1;
+    filter: alpha(opacity=100);
+    /*top: 50%;*/
+    -webkit-transform: translateX(-50%) translateY(-50%) scale(1);
+    -ms-transform: translateX(-50%) translateY(-50%) scale(1);
+    -o-transform: translateX(-50%) translateY(-50%) scale(1);
+    transform: translateX(-50%) translateY(-50%) scale(1);
+}
+/* END CSS FOR SHORTCODE: GALLERY ======================================== */
+
+/* START CSS FOR SHORTCODE: MEMBER ====================================== */
+.member{
+	text-align: center;
+}
+.member h5{margin-bottom: 0}
+.member .mem-pos{
+	font-size: 15px;
+	color: #9b9b9b;
+	margin-bottom: 15px;
+	display: block;
+}
+.member .member-social-links li{
+	display: inline-block;
+	list-style: none;
+	margin: 0 12px;
+	font-size: 14px;
+}
+.member .member-social-links li a{
+	color: #000000;
+}
+.member .member-social-links li a:hover{
+	color: #bda47d;
+}
+.member .mem-top{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+.member .mem-top:after{
+	content: "";
+	background-color: rgba(255,255,255,0.8);
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	-webkit-transition: all 0.3s ease 0s;
+	-o-transition: all 0.3s ease 0s;
+	transition: all 0.3s ease 0s;
+}
+.member:hover .mem-top:after{
+	opacity: 1;
+	filter: alpha(opacity=1);
+}
+.member .mem-top figure img{
+	-webkit-transition: all 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+	-o-transition: all 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+	transition: all 2s cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+}
+.member:hover .mem-top figure img{
+	-webkit-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}
+.member .member-social-links{
+	position: absolute;
+	left: 0;
+	top: 50%;
+	width: 100%;
+	padding: 0 20px;
+	z-index: 1;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.5s ease 0s;
+	-o-transition: all 0.5s ease 0s;
+	transition: all 0.5s ease 0s;
+}
+.member:hover .member-social-links{
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+/* END CSS FOR SHORTCODE: MEMBER ======================================== */
+
